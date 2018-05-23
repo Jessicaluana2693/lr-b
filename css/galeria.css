@@ -1,0 +1,46 @@
+.col-md-4{
+	padding: 0;
+}
+
+hr{
+	width: 70%;
+}
+
+h1{
+	text-align: center;
+}
+
+/*CODE*/
+
+img{
+    position: relative;
+    width: 100%;
+}
+
+.hov{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height : 250px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.content{
+	margin-top: 0;
+	transform: translateY(-100px);
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.content:hover{
+    opacity: 1;
+}
+.content_hover{
+	margin-top: 20%;
+	transform: translateY(0);
+	transition-duration: 0.5s;
+}
+.galeria{
+	height: 47px;
+}

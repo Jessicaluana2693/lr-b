@@ -1,0 +1,271 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+  
+p {
+    line-height: 1.75;
+}
+a:link 
+{ 
+text-decoration:none; 
+} 
+section {
+    padding: 0 0;
+}
+#mainNav {
+    background-color: transparent;
+    position: absolute!important;
+}
+  
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #ca9452;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 25;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.navbar-nav{
+    width: 100%!important;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover{
+    color: #ca9452;
+}
+.navbar-nav .btn-processo{
+    background-color: #ca9452;
+    color: #fff;
+    margin-left: 15px;
+}
+#font-icon{
+    margin-left: 10px;
+    color: #4c4c49;
+}
+.search-button{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    height: 752px;
+} 
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.sobre #img-lrb{
+    background-image: url("../img/sobre-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    height: 634px;
+}
+.sobre h3{
+    margin-top: 76px;
+    text-align: center;
+    color: #cc9966;
+    width: 60%;
+    font-weight:bold;
+}
+#texto-sobre{
+    margin-top: 76px;
+    text-align: center;
+    color: #cc9966;
+    width: 100%;
+    font-weight:bold;
+}
+.traco{
+    text-align: center;
+    color: #ca9452;
+    width: 73%;
+    font-size: 30px;
+    margin-top: -35px;
+}
+.sobre .traco{
+    text-align: center;
+    color: #ca9452;
+    width: 50%;
+    font-size: 30px;
+    margin-top: -35px;
+}
+.sobre p{
+    width: 80%;
+    margin-left: 65px;
+    text-align: justify;
+}
+.sobre #valores{
+    margin-left: 36px;
+    margin-top: 30px;
+}
+.sobre #texto-missao .modal-content{
+    background-color: #ca9452;
+    color: #fff;
+}
+.sobre #titulo-missao:hover{
+    color:#ca9452;
+}
+.sobre #texto-visao .modal-content{
+    background-color: #ca9452;
+    color: #fff;
+}
+.sobre #texto-valores .modal-content{
+    background-color: #ca9452;
+    color: #fff;
+}
+#services{
+    margin-top: 153px;
+    margin-bottom: 135px;
+}
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+#linha-serviços{
+    margin-top: 71px;
+}
+.equipe{
+    background-image: url("../img/banner-equipe.jpg");
+    height: 900px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.equipe-heading {
+    margin: 15px 0;
+    text-transform: none;
+    color: #fff;
+}
+#equipe-conteudo{
+    margin-top: 46px;
+} 
+#img-advogado img{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    image-rendering: auto;
+}
+#img-advogado:hover{
+    opacity: 0.75;
+    background-color: #d6b082;
+    border-radius: 100px;
+}
+#texto-adv{
+    color: #ca9452;
+}
+.card-body p{
+    margin-top: 20%;
+}
+.contato{
+    height: 705px;
+    background-color: #ca9452;
+}
+#texto-contato{
+    color: #fff;
+    margin-top: 76px;
+    text-align: center;
+    width: 100%;
+    font-weight:bold;
+}
+.contato h5{
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+.form-control{
+    background-color: #ca9452;
+    color: #fff;
+}
+.formulario-contato{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.formulario-contato .texto-area{
+    margin-top: 35px;
+    width: 100%;
+}
+#btn-contato{
+    margin-top: 15px;
+}
+footer {
+    padding: 25px 0;
+    text-align: center;
+    height: 533px;
+    background-image: url("../img/banner-footer.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+} 
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+}
+  
+footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+@media (max-width: 700px) {
+ .sobre p{
+     margin-left: 35px;
+ }   
+ #texto-sobre{
+     margin-top: 145px;
+ }
+ .equipe{
+     height: 1300px;
+ }
+ #equipe-conteudo{
+     margin-top: 20px;
+ }
+ .contato{
+     height: 1005px;
+ }
+ #texto-contato{
+     margin-top: 325px;
+ }
+ .formulario-contato{
+     margin-left: 9px;
+     width: 95%;
+ }
+}

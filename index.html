@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LR&B Advogados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-grid.min.css" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/galeria.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container-fluid">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase d-flex justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#masthead">INÍCIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#sobre">O escritório</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">Áreas de atuação</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#team">Equipe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Notícias</a>
+                  </li>
+                  <a href="https://consultasaj.tjam.jus.br/esaj/portal.do?servico=190090" class="btn btn-sm btn-processo" role="button" aria-pressed="true">Consulte o Processo</a>
+                  <div class="search-button">
+                    <i class="fa fa-search icon-search "></i>
+                    <div id="bg-form"><?php get_search_form(); ?></div>
+                    
+                  </div>
+                  <a href="#"id="font-icon">
+                    <span class="fa-stack fa-1x">
+                      <i class="fa fa-circle fa-stack-2x text-primary" style="color:#cc9966!important;"></i>
+                      <i class="fa fa-instagram fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <a href="https://www.facebook.com/lrradvogados/?ref=br_rs"id="font-icon">
+                    <span class="fa-stack fa-1x">
+                      <i class="fa fa-circle fa-stack-2x text-primary" style="color:#cc9966!important;"></i>
+                      <i class="fa fa-facebook-f fa-stack-1x"></i>
+                    </span>
+                  </a>
+                </ul>
+              </div>
+        </div>
+    </nav>
+          <!-- Header -->
+    <header class="masthead" id="masthead">
+        <div class="container-fluid">
+              <div class="intro-text">
+                <a class="navbar-brand js-scroll-trigger" href="#mainNav">
+                  <img src="img/marca.png">
+                </a>
+              </div>
+        </div>
+    </header>
+    <section class="sobre" id="sobre">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6" id="sobre-lrb">
+            <div class="texto-sobre">
+              <h3>Sobre a LR&B</h3>
+              <div class="traco">______
+              </div>
+              <p>O Escritório de Advocacia Lima, Rodrigues & Boris tem por objetivo primordial 
+                  garantir os direitos de seus clientes, atento aos princípios da lei e da ética.<br>
+                  <br>
+                  Para isso, não são poupados esforços e investimentos na constante atualização 
+                  e aprimoramento de seus profissionais visando ao melhor acompanhamento 
+                  e condução dos processos que patrocina, bem como à orientação jurídica 
+                  aprimorada.<br>
+                  <br>
+                  É uma filosofia de trabalho que proporciona excelentes resultados práticos e 
+                  soluções adequadas aos problemas que se apresentam àqueles que buscam 
+                  um escritório de advocacia.</p>
+            </div>
+            <div id="valores" class="container">
+              <div class="row col-lg-6 text-center">
+                <div class="col-md-3">
+                    <h5 id="titulo-missao" data-toggle="modal" data-target="#texto-missao">Missão</h5>
+                    <!-- Modal -->
+                    <div class="modal fade" id="texto-missao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Missão</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                Buscar o resultado mais eficaz para o cliente.
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                </div>
+                <div class="col-md-3">
+                  <h5 id="titulo-missao" data-toggle="modal" data-target="#texto-visao">Visão</h5>
+                  <!-- Modal -->
+                  <div class="modal fade" id="texto-visao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Visão</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Aperfeiçoar-se cada vez mais como Escritório paradigma na prestação de 
+                            serviços jurídicos empresariais.
+                          </div>
+                        </div>
+                      </div>
+                    </div>  
+                  
+                </div>
+                <div class="col-md-3">
+                  <h5 id="titulo-missao" data-toggle="modal" data-target="#texto-valores">Valores</h5>
+                  <!-- Modal -->
+                  <div class="modal fade" id="texto-valores" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Valores</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Ética, Qualidade, Simplicidade, Agilidade e Espírito de equipe.
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+
+                </div>
+              </div>
+          </div>
+
+          </div>
+          <div class="col-md-6" id="img-lrb">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="galeria">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="hov">
+                  <img src="img/galeria1.jpg" alt="">
+              </div>
+            </div>
+      
+            <div class="col-md-3">
+              <div class="hov">
+                  <img src="img/galeria2.jpg" alt="">
+              </div>
+            </div>
+      
+            <div class="col-md-3">
+              <div class="hov">
+                  <img src="img/galeria1.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="hov">
+                <img src="img/galeria2.jpg" alt="">
+                <div class="content">
+                  <a href="#" class="btn btn-danger">Veja Mais</a>
+                </div>
+              </div>
+            </div>
+      
+          </div>	
+         
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 class="section-heading text-uppercase" id="texto-sobre">Áreas de Atuação</h3>
+            <div class="traco">______
+            </div>
+          </div>
+        </div>
+        <div class="row text-center" id="linha-serviços">
+          <div class="col-md-4">
+            <span class="fa-stack fa-2x">
+              <i class="fa  fa-stack-1x"><img src="img/servico1.png" alt=""> </i>
+            </span>
+            <h5 class="service-heading">Consultoria extrajudicial</h5>
+            <p class="text-muted">Prestamos consultoria extrajudicial para você ou 
+              sua empresa, de forma a encontrar estratégias 
+              para resolução de conflitos existentes ou antever 
+              eventuais riscos de processo judicial.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-stack-1x"><img src="img/servico2.png" alt=""> </i>
+            </span>
+            <h5 class="service-heading">Direito Criminal</h5>
+            <p class="text-muted">Prestamos consultoria extrajudicial para você ou 
+              sua empresa no ramo de direito penal que define as infrações penais, estabelecendo as penas. 
+              As infrações penais dividem- se em crimes e delitos e contravenções.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-stack-1x"><img src="img/servico3.png" alt=""> </i>
+            </span>
+            <h5 class="service-heading">Direito Civil</h5>
+            <p class="text-muted">Prestamos consultoria extrajudicial para você ou 
+              sua empresa no ramo do direito civil que busca regulamentar o conjunto de normas dos direitos e obrigações 
+              de ordem privada relacionado às pessoas,seus direitos e obrigações, aos bens e às suas relações, 
+              enquanto membros da sociedade.</p>
+          </div>
+         
+        </div>
+        <div class="row text-center" id="linha-serviços">
+          <div class="col-md-4">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-stack-1x"><img src="img/servico4.png" alt=""> </i>
+            </span>
+            <h5 class="service-heading">Direito Tributário</h5>
+            <p class="text-muted">Prestamos consultoria extrajudicial para você ou 
+              sua empresa no ramo do direito tributário, que é o segmento do direito financeiro que afirma como serão cobrados contribuintes,
+              tributos e outras obrigações a ele relacionadas, para gerar receita para o Estado.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-stack-1x"><img src="img/servico5.png" alt=""> </i>
+            </span>
+            <h5 class="service-heading">Direito Imobiliário</h5>
+            <p class="text-muted">Prestamos consultoria extrajudicial para você ou 
+              sua empresa no ramo do direito imobiliário o qual busca tratar e regulamentar vários aspectos da vida privada, 
+              tais quais o condomínio, o aluguel, a compra e venda de imóveis, a usucapião e os financiamentos da casa própria.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-stack-1x"><img src="img/servico6.png" alt=""> </i>
+            </span>
+            <h5 class="service-heading">Direito Trabalhista</h5>
+            <p class="text-muted">Prestamos consultoria extrajudicial para você ou 
+              sua empresa no ramo do direito do trabalho, o qual é o conjunto de normas jurídicas que regem as relações entre empregados e empregadores</p>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <section class="equipe" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading text-uppercase" id="texto-sobre">Equipe</h3>
+            <div class="traco" style="width:95%">____
+            </div>
+        </div>
+      </div>
+      
+      <div class="row text-center" id="equipe-conteudo">
+        <a class="col-md-4" data-toggle="collapse" data-target="#advogado"  role="button" aria-expanded="false" aria-controls="advogado">
+          <span class="fa-stack fa-4x" id="img-advogado">
+            <img src="img/marcos.png" alt="Dr. Marcos Lima" class="rounded-circle">
+          </span>
+            <h5 class="equipe-heading">Marcos Lima</h5>
+            <h5 class="equipe-heading">OAB-AM: 11.070</h5>
+        </a>
+        <a class="col-md-4" data-toggle="collapse" href="#advogado2" role="button" aria-expanded="false" aria-controls="advogado2">
+          <span class="fa-stack fa-4x" id="img-advogado">
+            <img src="img/dyogo.png" alt="Dr. Dyogo Rodrigues" class="rounded-circle">
+          </span>
+          <h5 class="equipe-heading">Dyogo Rodrigues</h5>
+          <h5 class="equipe-heading">OAB-AM: 11.920</h5>
+        </a>
+        <a class="col-md-4" data-toggle="collapse" href="#advogado3" role="button" aria-expanded="false" aria-controls="advogado3">
+          <span class="fa-stack fa-4x" id="img-advogado">
+            <img src="img/marvyn.png" alt="Dr. Marvyn Boris" class="rounded-circle">
+          </span>
+            <h5 class="equipe-heading">Marvyn Boris</h5>
+            <h5 class="equipe-heading">OAB-AM: 12.571</h5>
+        </a>
+      </div>
+
+      <div class="collapse" id="advogado">
+          <div class="d-flex justify-content-center p-3 mb-2 bg-light" style="padding:0!important;">
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title text-center"  id="texto-adv">Marcos Lima</h3>
+                <div class="traco">__</div>
+                <p class="card-text">Bacharel em Direito pela faculdade DeVry Martha Falcão.</p>
+                <a href="#" class="btn" style="background-color:#cc9966; color:#fff;">Entrar em contato</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="img/marcos.png" class="img-fluid" style=" width: 100% \9;" alt="Dr. Marcos Lima">
+            </div>
+            </div>
+      </div>
+
+      <div class="collapse" id="advogado2">
+          <div class="d-flex justify-content-center p-3 mb-2 bg-light" style="padding:0!important;">
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title text-center"  id="texto-adv">Dyogo Rodrigues</h3>
+                <div class="traco">____</div>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn" style="background-color:#cc9966; color:#fff;">Entrar em contato</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="img/dyogo.png" class="img-fluid" style=" width: 100% \9;" alt="Dr. Dyogo Rodrigues">
+            </div>
+            </div>
+      </div>
+
+      <div class="collapse" id="advogado3">
+          <div class="d-flex justify-content-center p-3 mb-2 bg-light" style="padding:0!important;">
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title text-center"  id="texto-adv">Marvyn Boris</h3>
+                <div class="traco">__</div>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn" style="background-color:#cc9966; color:#fff;">Entrar em contato</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="img/marvyn.png" class="img-fluid" style=" width: 100% \9;" alt="Dr. Marvyn Boris">
+            </div>
+            </div>
+      </div>
+    </div>
+    </section>
+    <section class="contato" id="contact">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h3 class="section-heading text-uppercase" id="texto-contato">Contato</h3>
+                <div class="traco" style="color:#fff; width:90%">___</div>
+              </div>
+              <h5>Para entrar em contato conosco, preencha o formulário abaixo</h5>
+            </div>
+
+            <div class="row">
+                <form class="formulario-contato text-center">
+                    <div class="form-row">
+                      <div class="col-lg-4 text-center">
+                        <input type="text" class="form-control" placeholder="Seu Nome">
+                      </div>
+                      <div class="col-lg-4 text-center">
+                        <input type="text" class="form-control" placeholder="Seu Email">
+                      </div>
+                      <div class="col-lg-4 text-center">
+                        <input type="text" class="form-control" placeholder="Seu Telefone">
+                      </div>
+                      <div class="texto-area">
+                        <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Digite aqui sua mensagem..." rows="10"></textarea>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <a href="#" id="btn-contato" class="btn btn-secondary btn-lg active text-center" role="button" aria-pressed="true">Enviar Mensagem</a>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+      <!-- Footer -->
+      <footer>
+          <div class="container">
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="intro-text">
+                      <a class="navbar-brand js-scroll-trigger" href="#mainNav">
+                        <img src="img/marca-footer.png">
+                      </a>
+                    </div>
+              </div>
+              <div class="col-lg-12 text-center d-block p-2">
+                <p>Av. Duque de Caixias - Edif. Mario Queiroz Pierre N 1925,<br>
+                  sala 105. Praça 14 de Janeiro CEP: 69020-141
+                  <br>
+                  (92) 3877-2003<br>
+                  contato@lrebadvogados.adv.com
+                </p>
+              </div>
+              <div class="col-lg-12 text-center d-block p-2">
+                <ul class="list-inline social-buttons">
+                  <li class="list-inline-item">
+                    <a href="#"id="font-icon">
+                      <span class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x text-primary" style="color:#cc9966!important;"></i>
+                        <i class="fa fa-instagram fa-stack-1x"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.facebook.com/lrradvogados/?ref=br_rs"id="font-icon">
+                      <span class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x text-primary" style="color:#cc9966!important;"></i>
+                        <i class="fa fa-facebook-f fa-stack-1x"></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <span class="copyright">Copyright &copy; Jéssica Oliveira - 8bits 2018</span>
+            </div>
+          </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/galeria.js"></script>
+</body>
+</html>
